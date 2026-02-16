@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #020617, #000);
+  color: white;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+
+.logo span {
+  color: #38bdf8;
+}
+
+nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: white;
+}
+
+.hero {
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.hero-text h1 {
+  font-size: 3.5rem;
+  color: #38bdf8;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: #38bdf8;
+  color: #020617;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+canvas {
+  width: 420px;
+  height: 420px;
+}
+
+.glass {
+  margin: 70px;
+  padding: 40px;
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+
+.skills span, .project-card {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 22px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.15);
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+}
